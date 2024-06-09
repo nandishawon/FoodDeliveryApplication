@@ -1,0 +1,101 @@
+/* Navigation Section */
+#navbar{
+   flex-direction: column;
+}
+
+#navbar li a{
+    font-size: 1.2rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+.right-item{
+    margin-left: 0px;  /*flexbox er j div e lagano hobe sei div right e chole jaabe*/
+  }
+
+
+/* Home Section */
+#home{
+    padding: 3px 30px;
+    height: 400px;
+}
+#home::before{
+    height: 500px;
+}
+#home p{
+    font-size: 1.2rem;
+}
+
+
+
+/* Services Section*/
+#services{
+    flex-direction: column;
+
+}
+
+#services .box{
+    border: 2px solid brown;
+    padding:32px 17px;
+    margin: 2px 30px;
+    border-radius: 28px;
+    background-color: rgba(213, 236, 228, 0.588);
+    margin-bottom: 20px;
+}
+#services .box img {
+    height: 140px;
+    display: flex;
+    margin:auto;   /*margin auto tokhon ei karbe jokhn display flex hobe...*/
+}
+
+
+/* Client Section*/
+
+#clients{
+   flex-wrap: wrap;
+}
+#clients img{
+    height: 80px;
+    margin-top: 10px;
+}
+.client-item{
+    padding: 12px;
+}
+#client-section{
+    height: 280px;
+    position: relative;
+}
+
+/* Contact Section */
+
+#contact-box input,#contact-box textarea{
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+#contact-box label{
+ font-size: 0.92rem;
+}
+#contact-box form{
+    width: 60%;
+}
+/* Footer Section  */
+
+/* Utility Class */
+
+.h-primary {
+    font-size: 1.8rem;
+    padding: 10px;
+    font-family: "Bree Serif", serif;
+}
+
+.h-secondary {
+    font-size: 1.1rem;
+    padding: 12px;
+    font-family: "Bree Serif", serif;
+}
+.btn{
+    padding: 3px 6px;
+    margin: 17px;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
